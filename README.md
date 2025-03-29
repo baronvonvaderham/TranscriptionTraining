@@ -24,7 +24,7 @@ Running the Server Locally
 1. Open a terminal.
 2. Navigate to the directory containing the project code within the terminal.
 3. Run the following command: `python manage.py runserver`
-4. Open a new browser tab and type into the navigation bar: `http://127.0.0.1:8000/`
+4. Open a new browser tab and type into the navigation bar: `http://127.0.0.1:8000/lessons/`
 5. To stop the server, in the terminal window hit Ctrl+C (or Command+C).
 
 Anticipated Troubleshooting
