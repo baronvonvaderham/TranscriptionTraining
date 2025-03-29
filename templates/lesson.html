@@ -1,0 +1,21 @@
+{% load static %}
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=3, user-scalable=1"
+    />
+    <title></title>
+    <link rel="preconnect" href="https://use.typekit.net" crossorigin />  <link rel="stylesheet" rel="preload" as="font" href="https://use.typekit.net/.css?v=1742325880" />
+  </head>
+  <body>
+    <div id="app" style="width: 100%; height: 100%"></div>
+
+    {% include lesson_template %}
+    <script src="{% static main_chunk %}"></script>
+    <script src="{% static bundle %}"></script>
+    <script src="{% static vendors_chunk %}"></script>
+  </body>
+</html>
